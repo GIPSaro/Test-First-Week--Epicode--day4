@@ -99,9 +99,7 @@ h2 {
 }
 
 .box-rosso {
-  background-color: red;
-  /* margin-left: -25px;
-  margin-right: -25px;*/
+  background-color: #f04c2f;
   text-align: center;
   color: white;
   height: 600px;
@@ -166,7 +164,7 @@ footer .box-blu {
 }
 
 .box-blu a {
-  color: white !important;
+  color: white;
 }
 #copyright {
   margin-top: 3rem;

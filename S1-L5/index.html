@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="./Esercizio/css/reset.css" />
 
     <link rel="stylesheet" href="./Esercizio/css/style.css" />
     <link
@@ -11,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <title>TEST</title>
   </head>
   <!--scusi prof ma il css lo trova nella cartella css-->
   <body>
@@ -27,7 +29,7 @@
             Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti
             vogliono arricchire il CV, tu pensa ad arricchire le tue competenze.
           </p>
-          <button>Partiamo!</button>
+          <button>PARTIAMO!</button>
         </div>
       </section>
       <section>
@@ -37,6 +39,8 @@
             Sono 30.000 in Italia le posizioni di developer scoperte, scegli
             quella che ti stimola di più
           </p>
+        </div>
+        <div class="contenuto">
           <h4>Lavora dove vuoi</h4>
           <p>Lavora da casa, in riva al mare o in montagna</p>
         </div>
@@ -44,17 +48,18 @@
       <span class="notebook">
         <img src="./Esercizio/images/notebook.jpg" />
       </span>
-      <section>
-        <div>
-          <h4>Scegli il tuo ruolo</h4>
-          <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
-          <h4>Lavoro in libertà</h4>
-          <p>
-            Non serve lavorare in ufficio per essere creatori di prodotti
-            digitali.
-          </p>
-        </div>
-      </section>
+
+      <div class="contenuto">
+        <h4>Scegli il tuo ruolo</h4>
+        <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
+      </div>
+      <div class="contenuto">
+        <h4>Lavoro in libertà</h4>
+        <p>
+          Non serve lavorare in ufficio per essere creatori di prodotti
+          digitali.
+        </p>
+      </div>
       <section class="box-rosso">
         <h2>Epicode garantisce</h2>
         <p>
@@ -62,33 +67,41 @@
             >"3 mesi intensivi di corso che cambieranno radicalmente la tua
             vita".</em
           >
-          Mario Rossi CEO, Epicode
         </p>
+        <h3>Mario Rossi</h3>
+        <h6>CEO, Epicode</h6>
       </section>
       <section class="layout">
         <div class="pc">
           <img src="./Esercizio/images/foto1.jpg" />
-          <h4>Il tuo PC</h4>
-          <p>
-            Se vuoi diventare developer è l’unico strumento di cui hai bisogno.
-          </p>
+          <div class="descrizione">
+            <h4>Il tuo PC</h4>
+            <p>
+              Se vuoi diventare developer è l’unico strumento di cui hai
+              bisogno.
+            </p>
+          </div>
         </div>
       </section>
       <section class="layout">
         <div class="impara">
           <img src="./Esercizio/images/foto2.jpg" />
-          <h4>Impara ora</h4>
-          <p>
-            Impara da chi diventerai tra qualche anno, e diventa una rockstar
-            come loro..
-          </p>
+          <div class="descrizione">
+            <h4>Impara ora</h4>
+            <p>
+              Impara da chi diventerai tra qualche anno, e diventa una rockstar
+              come loro..
+            </p>
+          </div>
         </div>
       </section>
       <section class="layout">
         <div class="lavora">
           <img src="./Esercizio/images/foto3.jpg" />
-          <h4>Lavora subito</h4>
-          <p>Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
+          <div class="descrizione">
+            <h4>Lavora subito</h4>
+            <p>Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
+          </div>
         </div>
       </section>
     </main>
@@ -103,12 +116,12 @@
       <p>
         <i class="fas fa-envelope"></i><a href="email">info@epicode.school</a>
       </p>
-      <p>
+      <p id="address">
         <i class="fas fa-external-link-square-alt"></i
         ><a href="address">Via Appia 1 - 00100 Roma (RM) </a>
       </p>
       <hr />
-      <p>&copy 2021. Immagini di <u>Pixbay</u></p>
+      <p id="copyright">&copy 2021. Immagini di <u>Pixbay</u></p>
     </div>
   </footer>
 </html>
